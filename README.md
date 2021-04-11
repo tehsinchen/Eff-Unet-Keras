@@ -5,6 +5,6 @@ In this work, masks were predicted by efficient-unet (Eff-Unet) which refers to 
 
 ![image](https://github.com/tehsinchen/Eff-Unet-keras/blob/main/input_data/input_data.png)
 
-The EfficientNetB2 from keras was used as encoder in this case, others were the same, and the validation mIOU was 0.94.  Only rotation, flip, transpose were included in data augmentation. See below the predicted results (left is test images and right is the predicted masks).
+The EfficientNetB2 from keras was used as encoder in this case, others were the same, and the validation mIOU was 0.94.  Only rotation, flip, transpose were included in data augmentation. The kernel initializer was borrowed from https://github.com/zhoudaxia233/EfficientUnet. See below the predicted results (left is test images and right is the predicted masks).
 
 ![image](https://github.com/tehsinchen/Eff-Unet-keras/blob/main/results/cell_mask.gif)
